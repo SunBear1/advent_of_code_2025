@@ -1,2 +1,2 @@
-pub mod solution_1;
-pub mod solution_2;
+pub mod secret_entrance_1;
+pub mod secret_entrance_2;
