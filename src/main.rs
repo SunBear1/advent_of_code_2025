@@ -2,9 +2,10 @@ mod day_1;
 mod day_2;
 mod day_3;
 mod day_4;
+mod day_5;
 
-const DAY: u8 = 4;
-const PART: u8 = 1;
+const DAY: u8 = 5;
+const PART: u8 = 2;
 
 fn main() {
     match (DAY, PART) {
@@ -16,6 +17,8 @@ fn main() {
         (3, 2) => day_3::lobby_2::solve(),
         (4, 1) => day_4::printing_department_1::solve(),
         (4, 2) => day_4::printing_department_2::solve(),
+        (5, 1) => day_5::cafeteria_1::solve(),
+        (5, 2) => day_5::cafeteria_2::solve(),
         _ => println!("Day {} Part {} not implemented", DAY, PART),
     }
 }
